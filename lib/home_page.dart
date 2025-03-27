@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
     }
 
     try {
-      const url = 'http://mygps.dev-mampolo.com/mobile-api/insertPosition.php';
+      const url = 'URL DE VOTRE API';
       final uri = Uri.parse(url);
 
       final responseText = await http.post(uri, body: {
