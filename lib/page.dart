@@ -74,7 +74,7 @@ class _PageState extends State<Page> {
     }
 
     try {
-      const url = 'https://mygps.dev-mampolo.com/mobile-api/insertPosition.php';
+      const url = 'URL DE VOTRE API';
       final uri = Uri.parse(url);
 
       final responseText = await http.post(uri, body: {
