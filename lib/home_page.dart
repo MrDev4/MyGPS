@@ -72,7 +72,7 @@ class _HomePageState extends State<HomePage> {
     }
 
     try {
-      const url = 'URL DE VOTRE API';
+      const url = '(URL DE VOTRE API)';
       final uri = Uri.parse(url);
 
       final responseText = await http.post(uri, body: {
